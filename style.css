@@ -5,7 +5,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    background-image: url(bg.png);
+    background-image: url(bg2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%; /* Gambar akan memiliki ukuran 50% dari lebar dan tinggi elemen body */
@@ -13,14 +13,17 @@ body {
 }
 
 .book {
-	width: 350px;
-	height: 450px;
+	width: 250px;
+	height: 350px;
 	position: relative;
 	transition-duration: 1s;
 	perspective: 1500;
+	
 }
+
 .book {
-    transform: scale(1.1);
+    transform: scale(1.1);  /* Atur posisi vertikal (Y) */
+	left: -30px; /* Atur posisi horizontal (X) */
     /* Other styling properties */
 }
 
@@ -61,8 +64,8 @@ input {
 .page {
 	position: absolute;
 	background-color: rgb(230, 226, 198);
-	width: 330px;
-	height: 430px;
+	width: 230px;
+	height: 330px;
 	border-radius: 0 15px 15px 0;
 	margin-top: 10px;
 	transform-origin: left;
@@ -114,11 +117,15 @@ input {
 	z-index: 99;
 }
 
+.first-line{
+	padding-top: 7px;
+}
+
 .back-page img{
 	padding-left: 50px;
-	margin-top: -25px;
-	width: 275px;
-	height: 500px;
+	margin-top: -1px;
+	width: 180px;
+	height: 350px;
 }
 
 .ribbon {
@@ -171,6 +178,21 @@ input {
 
 .front-page img{
 	display: none;
+}
+
+.text-wrapper {
+	flex: 1;
+	margin-top: 30px;
+}
+
+.below-image {
+	padding-top: 5px;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+p {
+	font-size: 10px;
 }
 
 #page1 {
@@ -287,10 +309,11 @@ input {
 	transform: rotateY(-180deg);
 	z-index: 13;
 }
-#checkbox-page13:checked ~ .book #page13 {
+/* #checkbox-page13:checked ~ .book #page13 {
 	transform: rotateY(-180deg);
 	z-index: 14;
-}
+} */
+/*
 #checkbox-page14:checked ~ .book #page14 {
 	transform: rotateY(-180deg);
 	z-index: 15;
@@ -298,7 +321,7 @@ input {
 #checkbox-page15:checked ~ .book #page15 {
 	transform: rotateY(-180deg);
 	z-index: 16;
-}
+} */
 
 #background-music {
     display: none; /* Menyembunyikan kontrol audio */
@@ -312,6 +335,11 @@ input {
 		background-position: center; /* Gambar ditempatkan di tengah */
 	}
 
+	.book {
+		left: -11px; /* Atur posisi horizontal (X) */
+		/* Other styling properties */
+	}
+
 	#checkbox-cover:checked ~ .book {
 		transform: none
 	}
@@ -320,27 +348,130 @@ input {
 		display: none;
 	}
 
+	.front-page{
+		padding-top: 50px;
+	}
+
 	.front-page .prev{
 		display: block;
 	}
 
-	.front-page h2{
-		margin-bottom: 27px;
-	}
-
-	.front-page p {
-		padding-top: 35px;
-	}
+	/* .front-page p {
+		padding-top: -100px;
+	} */
 
 	.front-page img{
 		display: block;
-		padding-left: 25px;
-		width: 250px;
-		height: 100px;
-		padding-bottom: 17px;
+		margin-left: -70px;
+		width: 200px;
+		height: 90px;
+		margin-top: -10px;
 	}
 
 	.back-page img{
 		display: none;
+	}
+/* 
+	.book {
+		width: 300px;
+		height: 400px
+	}
+
+	.page {
+		width: 280px;
+		height: 380px;
+
+		p {
+			font-size: 3px;
+		}
+	} */
+
+	/* .page p {
+		font-size: 12px;
+	}
+
+	#page2 p {
+		font-size: 12px;
+	} */
+
+	.text-with-image {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .text-with-image img {
+        width: 170px;
+        height: 100px;
+        margin-right: -35px;
+    }
+
+    .text-wrapper {
+        flex: 1;
+		margin-top: -22px;
+
+    }
+
+    .text-wrapper p {
+        margin: 0;
+        padding-top: 0px;
+        text-align: left;
+
+    }
+
+    .below-image {
+		padding-top: 5px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+	#page1 h3{
+		margin-top: -25px !important;
+	}
+
+	#page2 .below-image{
+		margin-top: -10px !important;
+	}
+
+	#page4 .below-image{
+		margin-top: -20px !important;
+	}
+
+	#page5 .below-image{
+		margin-top: -54px !important;
+	}
+
+	#page6 .below-image{
+		margin-top: -42px !important;
+	}
+
+	#page7 .below-image{
+		font-size: 9px;
+		margin-top: -5px !important;
+	}
+
+	#page8 .below-image{
+		font-size: 9px;
+		margin-top: -10px !important;
+	}
+
+	#page9 .below-image{
+		margin-top: -3px !important;
+	}
+
+	#page10 .first-line, .second-line{
+		font-size: 9px !important;
+	}
+
+	#page10 .below-image{
+		margin-top: 0px !important;
+	}
+
+	#page13 .first-line{
+		text-align: justify;
+		margin-top: -6px !important;
+	}
+
+	#page13 .second-line{
+		margin-top: -3px !important;
 	}
 }

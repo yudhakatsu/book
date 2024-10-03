@@ -12,315 +12,514 @@
     />
   </head>
   <body>
+    
     <div class="book">
-      <input type="checkbox" id="checkbox-cover" />
-      <input type="checkbox" id="checkbox-page1" />
-      <input type="checkbox" id="checkbox-page2" />
-      <input type="checkbox" id="checkbox-page3" />
-      <input type="checkbox" id="checkbox-page4" />
-      <input type="checkbox" id="checkbox-page5" />
-      <input type="checkbox" id="checkbox-page6" />
-      <input type="checkbox" id="checkbox-page7" />
-      <input type="checkbox" id="checkbox-page8" />
-      <input type="checkbox" id="checkbox-page9" />
-      <input type="checkbox" id="checkbox-page10" />
-      <input type="checkbox" id="checkbox-page11" />
-      <input type="checkbox" id="checkbox-page12" />
-      <input type="checkbox" id="checkbox-page13" />
-      <input type="checkbox" id="checkbox-page14" />
-      <input type="checkbox" id="checkbox-page15" />
-      
-      <div class="book">
-        <div class="cover">
-          <label for="checkbox-cover"></label>
-        </div>
+        <input type="checkbox" id="checkbox-cover" />
+        <input type="checkbox" id="checkbox-page1" />
+        <input type="checkbox" id="checkbox-page2" />
+        <input type="checkbox" id="checkbox-page3" />
+        <input type="checkbox" id="checkbox-page4" />
+        <input type="checkbox" id="checkbox-page5" />
+        <input type="checkbox" id="checkbox-page6" />
+        <input type="checkbox" id="checkbox-page7" />
+        <input type="checkbox" id="checkbox-page8" />
+        <input type="checkbox" id="checkbox-page9" />
+        <input type="checkbox" id="checkbox-page10" />
+        <input type="checkbox" id="checkbox-page11" />
+        <input type="checkbox" id="checkbox-page12" />
+        <input type="checkbox" id="checkbox-page13" />
+        <input type="checkbox" id="checkbox-page14" />
+        <input type="checkbox" id="checkbox-page15" />
+        <div class="book">
+            <div class="cover">
+                <label for="checkbox-cover"></label>
+            </div>
+            <div class="page" id="page1">
+                <div class="front-page" style="text-align: center;">
+                    <div class="warning"></div>
+                    <h2>...</h2>
+                    <p style="padding-top: 10px;">
+                        ...
+                    </p>
 
-        <!-- Page 1 -->
-        <div class="page" id="page1">
-          <div class="front-page">
-            <h2>Pertemuan</h2>
-            <p style="padding-top: 10px;">
-              Dilorong kampus yang ramai,
-            </p>
-            <p style="padding-top: 1px;">
-              Aku melihatmu pertama kali,
-            </p>
-            <p style="padding-top: 1px;">
-              Tanpa kata yang melambung tinggi,
-            </p>
-            <p style="padding-top: 1px;">
-              Kamu menyapaku, ...
-            </p><br>
-            <p></p>
-            <p style="padding-top: 1px;">
-              Kehadiranmu membawa nuansa baru,
-            </p>
-            <p style="padding-top: 1px;">
-              Menjadi tokoh utama dalam kisah,
-            </p> 
-            <p style="padding-top: 1px;">
-              Yang tertulis dalam buku,
-            </p>
-            <p style="padding-top: 1px;">
-              Menjadi cerita yang sederhana
-            </p>
-            <label class="prev" for="checkbox-cover">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page1">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-          <div class="back-page">
-            <img src="page1.png" />
-            <label class="prev" for="checkbox-page1">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-          </div>
+                    <label class="prev" for="checkbox-cover"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page1"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page1.png" />
+                    <label class="prev" for="checkbox-page1"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page2">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <div class="text-with-image">
+                        <img src="layer1.png" alt="Image">
+                        <div class="text-wrapper">
+                            <p class="first-line">Tentangmu,</p>
+                            <p class="second-line">Yang takan cukup jika kutulis dalam buku,</p>
+                            <p class="third-line">Yang takan selesai jika ku obrolkan dalam semalam,</p>
+                        </div>
+                    </div>
+                    <p class="below-image">Yang tak pernah bosan ku ceritakan pada Tuhan, Yang selalu berputar-putar dalam pikiranku, Ini tentangmu, Yang menjadi tokoh utama dalam ceritaku.</p>
+                    <label class="prev" for="checkbox-page1"><i class="fas fa-chevron-left"></i></label>
+                    <label class="next" for="checkbox-page2"><i class="fas fa-chevron-right"></i></label>
+                </div>                
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page2"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page3">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Saat aku memulai dunia yang baru di perkuliahan,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Aku melihatmu duduk di ruangan yang sama,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Tanpa aba-aba kamu menyapaku,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Kubalasa dengan memperkenalkan diriku,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Aku kira kita hanya akan berteman,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Ternyata aku menyimpan perasaan,
+                    </p> 
+                    <label class="prev" for="checkbox-page2"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page3"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page3"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page4">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Aku jatuh cinta terlalu dalam,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Sampai-sampai temanku memperingatkanku
+                    </p>
+                    <p style="padding-top: 1px;">
+                        untuk jangan terlalu berlebihan. Dia pun bertanya,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        sampai kapan aku akan seperti ini?
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Mungkin sampai Tuhan mencabut perasaan ini
+                    </p>
+                    <p style="padding-top: 1px;">
+                        dari dalam hatiku,
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        Aku harap itu tak pernah terjadi.
+                    </p>
+                    <label class="prev" for="checkbox-page3"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page4"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page4"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page5">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Aku tau aku bisa jatuh cinta lagi ,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Kepada orang yang mungkin baru ku kenal,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Dengan perasaan yang sama
+                    </p>
+                    <p style="padding-top: 1px;">
+                        seperti yang kurasakan padamu saat ini,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Atau mungkin lebih besar,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Tapi ini bukan tentang berlebihannya pikiranku,
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        Ini tentang aku yang saat ini cuma mau kamu.
+                    </p>
+                    <label class="prev" for="checkbox-page4"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page5"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page5"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page6">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Aku adalah seorang musafir,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Yang berjalan ditengah padang harapan mencari oasis kebahagiaan, bukan sekedar fatamorgana.
+                    </p>
+                    <!-- <p style="padding-top: 1px;">
+                        Bukan sekedar fatamorgana,
+                    </p> -->
+                    <p style="padding-top: 1px;">
+                        Aku adalah aladin,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Yang duduk diatas permadani terbang,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Sambil kucium dan kubisikan segalanya padanya,
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        Berharap didengar oleh Sang Pencipta.
+                    </p>
+                    <label class="prev" for="checkbox-page5"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page6"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page6"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page7">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Temanku pernah bertanya padaku,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Apa arti kebahagiaan bagiku?
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Kujawab bahwa bahagia itu ketika kita mendapatkan apa yang kita mau,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Namun, sepertinya aku salah.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Saat aku mendapatkan apa yang aku mau, aku belum tentu bahagia.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Mungkin, bahagia itu ketika kita bisa mensyukuri
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        apapun yang kita punya.
+                    </p>
+                    <label class="prev" for="checkbox-page6"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page7"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page7"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page8">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Aku pernah bermimpi menjadi Spiderman,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Aku juga pernah bermimpi menjadi tokoh komik, mempunyai teman doraemon,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        tinggal di bulan, atau mengalahkan penjahat yang menyerang sekolah.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Dari banyaknya mimpi yang pernah aku alami,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Ada satu mimpi yang aku suka dan aku semogakan
+                    </p>
+                    <p style="padding-top: 1px;">
+                        untuk menjadi kenyataan,
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        Yaitu bersamamu selamanya.
+                    </p>
+                    <label class="prev" for="checkbox-page7"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page8"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page8"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page9">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Suatu hari, kamu bertanya padaku apa yang membuatku
+                    </p>
+                    <p style="padding-top: 1px;">
+                        suka denganmu. Aku bingung menjawabnya, 
+                    </p>
+                    <p style="padding-top: 1px;">
+                        kamu berhasil membunuhku dengan pertanyaanmu.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Aku tak bisa menjawabnya.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Karena aku suka padamu karena itu kamu,
+                    </p>
+                    <label class="prev" for="checkbox-page8"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page9"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page9"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page10">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Ada banyak doa yang pernah ku amalkan.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Doa menjadi orang sukses, doa menjadi pintar, 
+                    </p>
+                    <p style="padding-top: 1px;">
+                        doa makan, doa tidur, bahkan doa buka puasa.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Bukan mau sombong,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Tetapi selain doa orang tua, ada satu doaku yang paling serius. 
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Yaitu ketiak aku mengamalkan doa Nabi Daud
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        sambil ku sebut namamu
+                    </p>
+                    <label class="prev" for="checkbox-page9"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page10"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page10"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page11">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Aku tau kamu banyak yang suka.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Teman lamamu, masalalu mu, bapak-bapak tentara,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        atau mungkin sepupumu juga.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Terserahlah, aku tidak peduli.
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Dengan tubuh kecil ini, aku tak akan gentar sedikitpun.
+                    </p> 
+                    <label class="prev" for="checkbox-page10"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page11"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page11"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page12">
+                <div class="front-page">
+                    <h2>Selamat Tidur</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        Selamat tidur,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Tidurlah dengan senyuman,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Lupakan semua hal buruk di hari ini,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Bawa kebahagiaan kedalam mimpimu,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Sambut hari esok dengan penuh semangat dan senyuman,
+                    </p>
+                    <p style="padding-top: 1px;">
+                        Ingatlah bahwa ada orang yang ingin bertemu dedngan mu disetiap pagi,
+                    </p> 
+                    <p style="padding-top: 1px;">
+                        Istirahatlah.
+                    </p>
+                    <label class="prev" for="checkbox-page11"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page12"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page12"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page13">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        ...
+                    </p>
+                    <label class="prev" for="checkbox-page212"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page13"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page13"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page14">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <img src="layer1.png" alt="">
+                    <p style="padding-top: 10px;">
+                        ...
+                    </p>
+                    
+                    <label class="prev" for="checkbox-page13"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                    <label class="next" for="checkbox-page14"
+                        ><i class="fas fa-chevron-right"></i
+                    ></label>
+                </div>
+                <div class="back-page">
+                    <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
+                    <label class="prev" for="checkbox-page14"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="page" id="page15">
+                <div class="front-page">
+                    <h2>...</h2>
+                    <p style="padding-top: 10px;">
+                        ...
+                    </p>
+                    
+                    <label class="prev" for="checkbox-page3"
+                        ><i class="fas fa-chevron-left"></i
+                    ></label>
+                </div>
+            </div>
+            <div class="back-cover"></div>
+            
+            <!-- Pita di bagian bawah -->
+            <div class="ribbon" id="ribbon"></div>
         </div>
-
-        <!-- Page 2 -->
-        <div class="page" id="page2">
-          <div class="front-page">
-            <h2>Kamu</h2>
-            <img src="layer1.png" alt="">
-            <p style="padding-top: 10px;">
-              Ditengah gurun pasir yang gersang,
-            </p>
-            <p style="padding-top: 1px;">
-              Aku berjalan mencari harapan,
-            </p>
-            <p style="padding-top: 1px;">
-              Yang bukan sekedar fatamorgana,
-            </p>
-            <p style="padding-top: 1px;">
-              Dibawah terik sang matahari,
-            </p>
-            <p style="padding-top: 1px;">
-              Ku tundukkan kepala,
-            </p>
-            <p style="padding-top: 1px;">
-              mencium permadani terbang yang ku tunggangi,
-            </p> 
-            <p style="padding-top: 1px;">
-              Memohon kepada Tuhan, untuk selalu didekatkan
-            </p>
-            <label class="prev" for="checkbox-page1">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page2">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-          <div class="back-page">
-            <img src="page3.png" style="height: 90%; margin-top: 20px;"/>
-            <label class="prev" for="checkbox-page2">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 3 -->
-        <div class="page" id="page3">
-          <div class="front-page">
-            <h2>Harapan</h2>
-            <p style="padding-top: 10px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p> 
-            <p style="padding-top: 1px;">
-              Lorem ipsum dolor sit amet consectetur,
-            </p>
-            <label class="prev" for="checkbox-page2">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page3">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Halaman Tambahan (4-15) -->
-        <!-- Page 4 -->
-        <div class="page" id="page4">
-          <div class="front-page">
-            <h2>Judul Halaman 4</h2>
-            <p>Konten halaman 4...</p>
-            <label class="prev" for="checkbox-page3">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page5">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 5 -->
-        <div class="page" id="page5">
-          <div class="front-page">
-            <h2>Judul Halaman 5</h2>
-            <p>Konten halaman 5...</p>
-            <label class="prev" for="checkbox-page4">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page6">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 6 -->
-        <div class="page" id="page6">
-          <div class="front-page">
-            <h2>Judul Halaman 6</h2>
-            <p>Konten halaman 6...</p>
-            <label class="prev" for="checkbox-page5">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page7">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 7 -->
-        <div class="page" id="page7">
-          <div class="front-page">
-            <h2>Judul Halaman 7</h2>
-            <p>Konten halaman 7...</p>
-            <label class="prev" for="checkbox-page6">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page8">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 8 -->
-        <div class="page" id="page8">
-          <div class="front-page">
-            <h2>Judul Halaman 8</h2>
-            <p>Konten halaman 8...</p>
-            <label class="prev" for="checkbox-page7">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page9">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 9 -->
-        <div class="page" id="page9">
-          <div class="front-page">
-            <h2>Judul Halaman 9</h2>
-            <p>Konten halaman 9...</p>
-            <label class="prev" for="checkbox-page8">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page10">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 10 -->
-        <div class="page" id="page10">
-          <div class="front-page">
-            <h2>Judul Halaman 10</h2>
-            <p>Konten halaman 10...</p>
-            <label class="prev" for="checkbox-page9">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page11">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 11 -->
-        <div class="page" id="page11">
-          <div class="front-page">
-            <h2>Judul Halaman 11</h2>
-            <p>Konten halaman 11...</p>
-            <label class="prev" for="checkbox-page10">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page12">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 12 -->
-        <div class="page" id="page12">
-          <div class="front-page">
-            <h2>Judul Halaman 12</h2>
-            <p>Konten halaman 12...</p>
-            <label class="prev" for="checkbox-page11">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page13">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 13 -->
-        <div class="page" id="page13">
-          <div class="front-page">
-            <h2>Judul Halaman 13</h2>
-            <p>Konten halaman 13...</p>
-            <label class="prev" for="checkbox-page12">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page14">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 14 -->
-        <div class="page" id="page14">
-          <div class="front-page">
-            <h2>Judul Halaman 14</h2>
-            <p>Konten halaman 14...</p>
-            <label class="prev" for="checkbox-page13">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-            <label class="next" for="checkbox-page15">
-              <i class="fas fa-chevron-right"></i>
-            </label>
-          </div>
-        </div>
-
-        <!-- Page 15 -->
-        <div class="page" id="page15">
-          <div class="front-page">
-            <h2>Judul Halaman 15</h2>
-            <p>Konten halaman 15...</p>
-            <label class="prev" for="checkbox-page14">
-              <i class="fas fa-chevron-left"></i>
-            </label>
-          </div>
-        </div>
-        
-      </div>
     </div>
+    
+
+    <audio autoplay loop id="background-music">
+      <source src="mimpi.mp3" type="audio/mp3"/>
+    </audio>
+
+    
   </body>
 </html>
